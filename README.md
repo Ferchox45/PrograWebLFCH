@@ -1,27 +1,52 @@
-# Proyectoang
+# Integracion de una API con Angular
+Este proyecto de Angular 18.2 está diseñado para consumir una API de usuarios y mostrarlos en una tabla
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.11.
+## Caracteristicas
+Se muestran los usuarios de la Api en una tabla
+Consumo de API: Obtención de datos de usuario desde una API
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Link de la Api
 
-## Code scaffolding
+#### Get all items
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+```https:
+https//api.escuelajs.co/api/v1/users
+```
+## Dasboard con Usuarios
+![Pantalla de Login](public/image/Dashboard.jpg)
 
-## Build
+## Ejecucion de la aplicacion de manera local
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Clona el repositorio
 
-## Running unit tests
+```bash
+  https://github.com/Ferchox45/PrograWebLFCH.git
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Vamos a la carpeta del proyecto
 
-## Running end-to-end tests
+```bash
+  cd PrograWebLFCH
+```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Instalamos dependencias
 
-## Further help
+```bash
+  npm install
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Corremos el servidor de manera loca
+
+```bash
+  ng serve
+```
+Abrimos la siguiente ruta en nuestro navegador para ver la tabla:
+
+```bash
+ http://localhost:4200/
+```
+
+
+## Licencia
+![MIT License](https://img.shields.io/badge/License-MIT-green.svg)
